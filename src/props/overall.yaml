@@ -1,0 +1,31 @@
+eval_args:
+  split: {'LS': 'valid_and_test'}
+  order: TO
+  mode: full
+repeatable: True
+loss_type: CE
+
+train_batch_size: 4096
+eval_batch_size: 100
+valid_metric: NDCG@10
+metrics: ["Recall", "NDCG", "MRR"]
+topk: [1, 5, 10, 20, 50]
+
+train_neg_sample_args: ~
+selected_user_suffix: random
+recall_budget: 20
+has_gt: True
+fix_pos: -1
+
+model_version: ''
+inference_model: ''
+
+# max_tokens: 512
+max_tokens: 32
+temperature: 0 
+boots: 0
+max_his_len: 50
+model_path: "lmsys/vicuna-13b-v1.5-16k"
+
+api_base: ""
+api_key: ""
