@@ -1,1 +1,1 @@
-# Code and Dataset of paper Exploiting Dynamic Reflection in LLM for Sequential Recommendation
+# Code and Dataset of paper Learning Dynamic LLM Reflection for Sequential Recommen- dation with Divergent Thinking
