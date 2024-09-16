@@ -1,4 +1,4 @@
-# Code and Dataset of paper Learning Dynamic LLM Reflection for Sequential Recommendation with Divergent Thinking
+
 
 # DRDT Framework
 ![DRDT Framework](framework.png "This is the revised framework illustration")
